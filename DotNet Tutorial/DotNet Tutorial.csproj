@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>DotNet_Tutorial</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Base_Constructor\**" />
+    <Compile Remove="Boxing\**" />
+    <Compile Remove="Constructors\**" />
+    <Compile Remove="Extension Method\**" />
+    <Compile Remove="InheritanceWithConstructor\**" />
+    <Compile Remove="Inheritance\**" />
+    <Compile Remove="Inheritance_With_ambiguity\**" />
+    <Compile Remove="MethodOverloading\**" />
+    <Compile Remove="NewFolder\**" />
+    <Compile Remove="Paramss\**" />
+    <Compile Remove="StaticClass\**" />
+    <Compile Remove="StaticMethod\**" />
+    <Compile Remove="StaticVariable\**" />
+    <Compile Remove="Stringss\**" />
+    <EmbeddedResource Remove="Base_Constructor\**" />
+    <EmbeddedResource Remove="Boxing\**" />
+    <EmbeddedResource Remove="Constructors\**" />
+    <EmbeddedResource Remove="Extension Method\**" />
+    <EmbeddedResource Remove="InheritanceWithConstructor\**" />
+    <EmbeddedResource Remove="Inheritance\**" />
+    <EmbeddedResource Remove="Inheritance_With_ambiguity\**" />
+    <EmbeddedResource Remove="MethodOverloading\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Paramss\**" />
+    <EmbeddedResource Remove="StaticClass\**" />
+    <EmbeddedResource Remove="StaticMethod\**" />
+    <EmbeddedResource Remove="StaticVariable\**" />
+    <EmbeddedResource Remove="Stringss\**" />
+    <None Remove="Base_Constructor\**" />
+    <None Remove="Boxing\**" />
+    <None Remove="Constructors\**" />
+    <None Remove="Extension Method\**" />
+    <None Remove="InheritanceWithConstructor\**" />
+    <None Remove="Inheritance\**" />
+    <None Remove="Inheritance_With_ambiguity\**" />
+    <None Remove="MethodOverloading\**" />
+    <None Remove="NewFolder\**" />
+    <None Remove="Paramss\**" />
+    <None Remove="StaticClass\**" />
+    <None Remove="StaticMethod\**" />
+    <None Remove="StaticVariable\**" />
+    <None Remove="Stringss\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+</Project>
